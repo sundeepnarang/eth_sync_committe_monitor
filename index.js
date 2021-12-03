@@ -5,7 +5,7 @@
 
 const axios = require('axios');
 const { DateTime } = require("luxon");
-const {validatorList, beaconNode="http://localhost:5051", pushgateway="http://localhost:9091"}= require("config.js")
+const {validatorList, beaconNode="http://localhost:5051", pushgateway="http://localhost:9091"}= require("./config.js")
 
 const epoch_to_time = (epoch)=>{
     return 1606824000 + ( epoch * 384)
