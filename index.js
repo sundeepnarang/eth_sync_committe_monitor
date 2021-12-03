@@ -1,4 +1,8 @@
-#!/bin/sh
+// Thanks to this link
+//
+// https://www.reddit.com/r/ethstaker/comments/qjlfsf/how_to_check_upcoming_sync_committee_membership/
+
+
 const axios = require('axios');
 const { DateTime } = require("luxon");
 const {validatorList, beaconNode="http://localhost:5051", pushgateway="http://localhost:9091"}= require("config.js")

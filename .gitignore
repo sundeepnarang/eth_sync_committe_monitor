@@ -117,3 +117,5 @@ dist
 .pnp.*
 
 .idea/
+
+config.js
